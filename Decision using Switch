@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int Choice;
+	printf("Enter a num from 1 to 5:");
+	scanf("%d",&Choice);
+	switch(Choice)
+	{
+		case 1:printf("\nYou have chosen French Fries.\nIt is Rs.99.");
+		break;
+		case 2:printf("\nYou have chosen Pasta.\nIt is Rs.179.");
+		break;
+		case 3:printf("\nYou have chosen Pizza.\nIt is Rs.239.");
+		break;
+		case 4:printf("\nYou have chosen Sandwich.\nIt is Rs.149.");
+		break;
+		case 5:printf("\nYou have chosen Burger.\nIt is Rs.129.");
+		break;
+		default:printf("\nInvalid Option");
+	}
+    return 0;
+}
